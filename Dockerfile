@@ -1,5 +1,5 @@
 # Pull the minimal Ubuntu image
-FROM Ubuntu
+FROM ubuntu
 
 #File maintainer
 MAINTAINER "akashjaiswal828@gmail.com"
