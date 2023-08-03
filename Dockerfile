@@ -12,7 +12,6 @@ RUN apt-get install -y net-tools
 
 RUN useradd -ms /bin/bash Nature2
 Run mkdir /home/Nature2/newdirectory
-Run chown Nature2:Nature2 /home/Nature1/newdirectory
 USER Nature2
 
 Add  target/Nature2.war /home/Nature2/newdirectory
